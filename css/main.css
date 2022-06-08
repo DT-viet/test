@@ -1,0 +1,104 @@
+.content {
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.btn_new {
+    background-color: green;
+    border-radius: 0px;
+    color: #fff;
+    padding: 6px 26px;
+}
+
+.table_employees {
+    margin-top: 24px;
+}
+
+.table_employees_thead {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn_close {
+    padding:4px 20px ;
+    background-color: #dc3545;
+    color: #fff;
+    border: 0;
+}
+
+.model {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.4); 
+    display: none;  
+}
+
+.model.open {
+    display: inline-block;
+}
+
+.isNull_no.open,
+.isNull_name.open,
+.isNull_age.open,
+.isNull_address.open,
+.isNull_sex.open {
+    display: inline-block;
+}
+
+
+/* model add */
+.model_container {
+    margin-top: 24px;
+    border: 2px solid #333;
+    padding: 8px 0;
+    background: #fff;
+}
+
+.identification {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address {
+    margin-top: 16px;
+    margin-left: 103px;
+}
+
+.input_address {
+    padding: 24px 180px;
+}
+
+.companys {
+    margin-top: 24px;
+    display:flex;
+    
+}
+
+.cp_in {
+    margin-left: 100px;
+}
+.cp_out {
+    margin-left: 24px;
+}
+.save {
+    text-align: center;
+}
+.btn_save {
+    padding: 6px 80px;
+    background-color:#01f201;
+    color: #fff;
+}
+
+.isNull_no,
+.isNull_name,
+.isNull_age,
+.isNull_address,
+.isNull_sex {
+    color: #dc3545;
+    display: none;
+}
+
